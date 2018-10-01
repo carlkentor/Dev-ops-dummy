@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dummy.dev.ops.sample</id>
+    <version>1.0.0</version>
+    <authors>Carl</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Deploy av portal</description>
+  </metadata>
+  <files>
+    <file src="*.svc" target="." />
+    <file src="*.asax" target="." />
+    <file src="*.js" target="." />
+    <file src="packages.config" target="." />
+    <file src="Web.config" target="." />
+    <file src="Web.Debug.config" target="." />
+    <file src="Web.Release.config" target="." />
+    <file src="ApplicationInsights.config" target="." />
+    <file src="default.aspx" target="." />
+    <file src="bin\**" target=".\bin" exclude="**\Web*.config" />
+    <file src="App_Plugins\**" target=".\App_Plugins" />
+    <file src="Scripts\**" target=".\Scripts" />
+    <file src="build\**" target=".\build" />
+    <file src="Views\**" target=".\Views" />
+  </files>
+</package>
