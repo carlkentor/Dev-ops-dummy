@@ -18,7 +18,6 @@
     <file src="ApplicationInsights.config" target="." />
     <file src="bin\**" target=".\bin" exclude="**\Web*.config" />
     <file src="Scripts\**" target=".\Scripts" />
-    <file src="build\**" target=".\build" />
     <file src="Views\**" target=".\Views" />
   </files>
 </package>
