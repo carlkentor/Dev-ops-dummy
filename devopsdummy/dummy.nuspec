@@ -16,9 +16,7 @@
     <file src="Web.Debug.config" target="." />
     <file src="Web.Release.config" target="." />
     <file src="ApplicationInsights.config" target="." />
-    <file src="default.aspx" target="." />
     <file src="bin\**" target=".\bin" exclude="**\Web*.config" />
-    <file src="App_Plugins\**" target=".\App_Plugins" />
     <file src="Scripts\**" target=".\Scripts" />
     <file src="build\**" target=".\build" />
     <file src="Views\**" target=".\Views" />
